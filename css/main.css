@@ -1,0 +1,120 @@
+.navbar{
+    background-color: white;
+} 
+
+h2 {
+    color: black;
+    font-size: 2.5em;
+    font-family: 'Playfair Display';
+    padding-top: 20px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}   
+
+.section {
+    margin-top: 50px;
+}
+.aboutUs h3 {
+    color: red;
+    font-family: 'Playfair Display';
+}
+#Benefits, #Benefits .description .row {
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.foto {
+    padding: 0px;
+}
+
+.OurWork .foto:hover {
+    background-color: red;
+}
+
+.button {
+    background-color: red;
+    border-radius: 0px;
+    color: red;
+}
+
+
+#Benefits h3 {
+    color: black;
+    font-family: 'Playfair Display';
+}
+
+#Benefits i {
+    font-size: 3.5em;
+    padding-right: 0px;
+}
+
+.statsBorder {
+    height: 170px;
+}
+
+.statsBorderLine {
+    border-bottom: lightgray 2px solid;
+}
+
+.breakLine {
+    border-bottom: red 2px solid;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    color: #7697A2;
+    background-color: #002633;
+}
+
+.redLine {
+    background-color: red;
+    height: 80px;
+    
+}
+footer .contactdescription {
+    font-size: 13.5px;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+
+footer h4 {
+    font-family: 'Playfair Display';
+    color: white;
+    font-size: 19px;
+}
+
+.redLine h4 {
+    font-size: 1.8rem;
+}
+
+footer .icon {
+    color: red;
+    font-size: 4em;
+    padding-left: 20%;
+    padding-right: 20%; 
+}
+
+footer .copyrightContainer {
+    padding-top: 20px;
+    font-size: 12px;
+    border-top: 1px solid  #7697A2;
+
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:100%;
+    width:100%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+}
