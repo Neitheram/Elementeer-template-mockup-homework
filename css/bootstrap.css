@@ -2591,14 +2591,14 @@ fieldset:disabled a.btn {
 
 .btn-danger {
   color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  background-color:red;
+  border-color: red;
 }
 
 .btn-danger:hover {
   color: #fff;
-  background-color: #c82333;
-  border-color: #bd2130;
+  background-color:red;
+  border-color: red;
 }
 
 .btn-danger:focus, .btn-danger.focus {
@@ -2606,7 +2606,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-danger.disabled, .btn-danger:disabled {
-  color: #fff;
+  color: rgb(202, 185, 185);
   background-color: #dc3545;
   border-color: #dc3545;
 }
@@ -2724,14 +2724,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #6c757d;
-  border-color: #6c757d;
+  color: black;
+  border-color: black;
 }
 
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
@@ -4220,11 +4220,10 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  color: black;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
@@ -4233,8 +4232,6 @@ input[type="button"].btn-block {
 
 .navbar-toggler-icon {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
   vertical-align: middle;
   content: "";
   background: no-repeat center center;
@@ -4348,8 +4345,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {

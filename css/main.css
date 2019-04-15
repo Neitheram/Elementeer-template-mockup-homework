@@ -1,25 +1,145 @@
-.navbar{
-    background-color: white;
-} 
+
+.ribbon {
+    position:fixed;
+    top:120px;
+    right:-14px;
+    z-index:10;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfaid Display';
+    color: black
+}
 
 h2 {
-    color: black;
-    font-size: 2.5em;
-    font-family: 'Playfair Display';
-    padding-top: 20px;
+font-size: 50px;
+}
+
+.aboutUs h3 {
+    font-size: 25px;
+}
+.redText {
+    color: red;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-}   
+    font-size: 13.6px;
+} 
 
-.section {
-    margin-top: 50px;
+h1 {
+    color: white;
 }
-.aboutUs h3 {
-    color: red;
-    font-family: 'Playfair Display';
+
+/*NAVIGATION*/
+
+.navbar-light .navbar-toggler {
+    font-size: 50px;
+    color: black;
 }
+
+nav{
+    background-color: white;
+    height: auto;
+} 
+
+nav a {
+    color: black;
+}
+
+
+nav .logo-white {
+    display: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: .7rem !important;
+    padding-right: .7rem !important;
+}
+
+#carouselExampleSlidesOnly {
+    height: 300px;
+}
+
+@media only screen and (max-width: 550px) {
+   
+    .ribbon {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+   nav {
+    background-color: transparent !important;
+    border-bottom: 1px solid hsla(360, 100%, 100%, 0.32);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+ 
+   }
+
+   nav a {
+       color: lightgray;
+   }
+
+   nav a:hover {
+       color: white;
+       background-color: hsla(360, 100%, 100%, 0.32);
+   }
+   nav .logo-black {
+       display: none;
+   }
+
+   nav .logo-white {
+       display: inline;
+   }
+
+   .carousel h1 {
+       font-size: 60px;
+   }
+
+   .carousel p {
+       font-size: 14px;
+   }
+}
+
+/*CARDS*/ 
+
+.cardSection .card {
+    padding: 30px;
+}
+
+.cardSection p {
+  color: gray;
+}
+
+.cardSection .btn {
+     color: black;
+    border-color: black;
+}
+
+.cardSection .btn:hover {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+
+/*ICONS*/
+.icon {
+    font-size: 3.5em;
+    padding-right: 0px;
+}
+
+
+.sectionMargin {
+    margin-top: 60px;
+}
+
+
 #Benefits, #Benefits .description .row {
     padding-top:20px;
     padding-bottom: 20px;
@@ -33,21 +153,9 @@ p {
     background-color: red;
 }
 
-.button {
-    background-color: red;
-    border-radius: 0px;
-    color: red;
-}
-
 
 #Benefits h3 {
     color: black;
-    font-family: 'Playfair Display';
-}
-
-#Benefits i {
-    font-size: 3.5em;
-    padding-right: 0px;
 }
 
 .statsBorder {
@@ -63,8 +171,7 @@ p {
     margin-top:20px;
     margin-bottom: 20px;
 }
-
-
+/*RED LINE*/
 footer {
     color: #7697A2;
     background-color: #002633;
@@ -72,28 +179,30 @@ footer {
 
 .redLine {
     background-color: red;
-    height: 80px;
-    
-}
-footer .contactdescription {
-    font-size: 13.5px;
-    margin-top: 40px;
-    margin-bottom:40px;
-}
-
-footer h4 {
-    font-family: 'Playfair Display';
-    color: white;
-    font-size: 19px;
+    height: 80px;  
 }
 
 .redLine h4 {
     font-size: 1.8rem;
 }
 
+/*FOOTER*/
+
+footer .contactdescription {
+    font-size: 13.5px;
+    margin-top: 40px;
+    margin-bottom:40px;
+    margin-left:15px;
+    margin-right:15px;  
+}
+
+footer h4 {
+    color: white;
+    font-size: 19px;
+}
+
 footer .icon {
     color: red;
-    font-size: 4em;
     padding-left: 20%;
     padding-right: 20%; 
 }
