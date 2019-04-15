@@ -149,6 +149,10 @@ nav .logo-white {
     padding: 0px;
 }
 
+#pills-tab {
+    width: 65%;
+}
+
 .OurWork .foto:hover {
     background-color: red;
 }
