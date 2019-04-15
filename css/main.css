@@ -67,6 +67,11 @@ nav .logo-white {
         display: none;
     }
 
+    header .carouselpru {
+        height: 200px;
+   
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -175,6 +180,22 @@ nav .logo-white {
     margin-top:20px;
     margin-bottom: 20px;
 }
+/*GALLERY*/
+.img:hover {
+    opacity: 0;
+}
+
+/*TESTIMONIALS*/
+main .carousel-item {
+    height: 300px;
+}
+
+main .carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    background-color: #7697A2;
+}
+
 /*RED LINE*/
 footer {
     color: #7697A2;
