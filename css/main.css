@@ -183,6 +183,7 @@ nav .logo-white {
 
 .photoGallery .galleryText h2 {
     color: white;
+    font-size: 35px;
 }
 /*GALLERY*/
 
@@ -207,13 +208,15 @@ nav .logo-white {
     -webkit-transition: 0.5s;
     transition-timing-function: ease-out;
     transition: 0.5s; 
+    overflow: hidden;
   }
   
 
-.photoGallery img {
+.photoGallery .galleryFoto {
     -webkit-transition: 0.2s;
     transition-timing-function: ease-out;
     transition: 0.2s; 
+    overflow: hidden;
   }
   
  .photoGallery img:hover {
