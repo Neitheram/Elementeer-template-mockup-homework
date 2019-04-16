@@ -180,10 +180,46 @@ nav .logo-white {
     margin-top:20px;
     margin-bottom: 20px;
 }
-/*GALLERY*/
-.img:hover {
-    opacity: 0;
+
+.photoGallery .galleryText h2 {
+    color: white;
 }
+/*GALLERY*/
+
+.photoGallery  .galleryText {
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    top: 0px;
+    padding: 50px 30px;
+    background: red;
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  
+  .photoGallery .galleryFoto:hover .galleryText {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+
+.photoGallery .galleryText {
+    -webkit-transition: 0.5s;
+    transition-timing-function: ease-out;
+    transition: 0.5s; 
+  }
+  
+
+.photoGallery img {
+    -webkit-transition: 0.2s;
+    transition-timing-function: ease-out;
+    transition: 0.2s; 
+  }
+  
+ .photoGallery img:hover {
+    transform: scale(1.2);
+
+  }
 
 /*TESTIMONIALS*/
 main .carousel-item {
